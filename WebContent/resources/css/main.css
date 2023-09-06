@@ -1,0 +1,61 @@
+@charset "UTF-8";
+html {
+    font-family: "Roboto Thin", sans-serif;
+
+}
+
+.header {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+img {
+
+    height: 20rem;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border: 3px solid dimgrey;
+    border-radius: 15px;
+    width: 500px;
+}
+
+h1 {
+    font-family: "Roboto Thin", sans-serif;
+    font-size: 1.5em;
+}
+.forms {
+	margin-top: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	
+}
+.button {
+    margin: 15px;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #ababc1;
+}
+.button-text {
+    font-weight: bold;
+}
+.footer {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+.footer-text {
+    font-size: 1em;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+
+    font-size: 1rem;
+    
+}
